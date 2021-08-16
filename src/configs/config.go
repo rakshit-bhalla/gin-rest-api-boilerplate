@@ -11,7 +11,7 @@ var DBName string
 
 func init() {
 	DGN = "local"
-	APIHost = "localhost:5000"
+	APIHost = "localhost:8080"
 	MongoURI = "mongodb://localhost:27017"
 	DBName = "rakshit-dev"
 	env := os.Getenv("DEPLOYMENT_GROUP_NAME")
