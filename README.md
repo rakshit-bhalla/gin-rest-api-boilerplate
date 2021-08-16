@@ -14,6 +14,11 @@
 <!-- - Logging has been implemented using []() -->
 <!-- - Testing has been implemented using []() -->
 
+## To Do's
+- Add health checks
+- Improve logging and setup log file generation
+- Setup testing
+
 ## Running the app
 
 - Clone the repository
