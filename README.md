@@ -1,16 +1,16 @@
 <p align="center">
-  <a href="https://pkg.go.dev/github.com/gin-gonic/gin/" target="blank"><img src="https://www.clipartmax.com/png/middle/363-3631651_and-moreover-its-thought-to-make-fast-and-scalable-golang-gin.png" width="320" alt="Gin Logo" /></a>
+  <a href="https://pkg.go.dev/github.com/gin-gonic/gin/" target="blank"><img src="https://blog.logrocket.com/wp-content/uploads/2020/02/how-to-build-a-rest-api-with-golang-using-gin-and-gorm.png" width="320" alt="Gin Logo" /></a>
 </p>
 
-  <p align="center">Boilerplate code for REST API in <a href="https://pkg.go.dev/github.com/gin-gonic/gin/" target="_blank">Gin(golang)</a> framework for building efficient and scalable server-side applications.</p>
+  <p align="center">Boilerplate code for REST API in <a href="https://pkg.go.dev/github.com/gin-gonic/gin/" target="_blank">Gin</a> framework for building efficient and scalable server-side applications.</p>
 
 ## Description
 
-- REST API with MVC standards in [Gin](https://pkg.go.dev/github.com/gin-gonic/gin/) framework.
+- REST API with MVC standards using [Gin](https://pkg.go.dev/github.com/gin-gonic/gin/) framework.
 - Code has been written in [Golang](https://golang.org/).
 - Documentation has been implemented with [Swagger](https://github.com/swaggo/swag).
-<!-- - Health check has been implemented using [](). -->
 - [Mongo database](https://www.mongodb.com/) (No SQL) has been used.
+<!-- - Health check has been implemented using [](). -->
 <!-- - Logging has been implemented using []() -->
 <!-- - Testing has been implemented using []() -->
 
