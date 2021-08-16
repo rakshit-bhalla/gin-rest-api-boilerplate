@@ -1,9 +1,9 @@
 package services
 
 import (
-	"rakshit.dev/gin-rest-api-boilerplate/errors"
-	"rakshit.dev/gin-rest-api-boilerplate/models"
-	"rakshit.dev/gin-rest-api-boilerplate/repositories"
+	"rakshit.dev/gin-rest-api-boilerplate/src/errors"
+	"rakshit.dev/gin-rest-api-boilerplate/src/models"
+	"rakshit.dev/gin-rest-api-boilerplate/src/repositories"
 )
 
 type User = models.User

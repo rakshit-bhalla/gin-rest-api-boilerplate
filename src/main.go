@@ -2,12 +2,13 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"rakshit.dev/gin-rest-api-boilerplate/controllers"
-	"rakshit.dev/gin-rest-api-boilerplate/db"
-	"rakshit.dev/gin-rest-api-boilerplate/repositories"
-	"rakshit.dev/gin-rest-api-boilerplate/routers"
-	"rakshit.dev/gin-rest-api-boilerplate/services"
-	"rakshit.dev/gin-rest-api-boilerplate/utils"
+	"rakshit.dev/gin-rest-api-boilerplate/src/configs"
+	"rakshit.dev/gin-rest-api-boilerplate/src/controllers"
+	"rakshit.dev/gin-rest-api-boilerplate/src/db"
+	"rakshit.dev/gin-rest-api-boilerplate/src/repositories"
+	"rakshit.dev/gin-rest-api-boilerplate/src/routers"
+	"rakshit.dev/gin-rest-api-boilerplate/src/services"
+	"rakshit.dev/gin-rest-api-boilerplate/src/utils"
 )
 
 // @title Gin Rest Api Boilerplate
@@ -28,12 +29,11 @@ import (
 func main() {
 	router := gin.Default()
 	mongoDB := db.GetMongo()
-	host := "localhost:5000"
 	userRepository := repositories.NewUserRepository(mongoDB)
 	userService := services.NewUserService(userRepository)
 	userController := controllers.NewUserController(userService)
 	routers.SetUserRoutes(router, userController)
-	utils.SetSwaggerProps(host)
+	utils.SetSwaggerProps()
 	routers.SetSwaggerRoutes(router)
-	router.Run(host)
+	router.Run(configs.APIHost)
 }

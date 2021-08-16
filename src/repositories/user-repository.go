@@ -9,8 +9,8 @@ import (
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
-	"rakshit.dev/gin-rest-api-boilerplate/errors"
-	"rakshit.dev/gin-rest-api-boilerplate/models"
+	"rakshit.dev/gin-rest-api-boilerplate/src/errors"
+	"rakshit.dev/gin-rest-api-boilerplate/src/models"
 )
 
 type User = models.User

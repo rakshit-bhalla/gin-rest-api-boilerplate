@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"rakshit.dev/gin-rest-api-boilerplate/errors"
-	"rakshit.dev/gin-rest-api-boilerplate/models"
-	"rakshit.dev/gin-rest-api-boilerplate/services"
-	"rakshit.dev/gin-rest-api-boilerplate/utils"
+	"rakshit.dev/gin-rest-api-boilerplate/src/errors"
+	"rakshit.dev/gin-rest-api-boilerplate/src/models"
+	"rakshit.dev/gin-rest-api-boilerplate/src/services"
+	"rakshit.dev/gin-rest-api-boilerplate/src/utils"
 
 	"github.com/gin-gonic/gin"
 )

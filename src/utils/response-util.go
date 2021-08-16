@@ -1,8 +1,8 @@
 package utils
 
 import (
-	"rakshit.dev/gin-rest-api-boilerplate/errors"
-	"rakshit.dev/gin-rest-api-boilerplate/models"
+	"rakshit.dev/gin-rest-api-boilerplate/src/errors"
+	"rakshit.dev/gin-rest-api-boilerplate/src/models"
 )
 
 type Response = models.Response

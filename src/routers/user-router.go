@@ -2,7 +2,7 @@ package routers
 
 import (
 	"github.com/gin-gonic/gin"
-	"rakshit.dev/gin-rest-api-boilerplate/controllers"
+	"rakshit.dev/gin-rest-api-boilerplate/src/controllers"
 )
 
 type UserController = controllers.UserController
